@@ -8187,7 +8187,7 @@ IP-CIDR,17.0.0.0/8,Apple
 DOMAIN,appleiphonecell.com,Apple
 USER-AGENT,AppStore*,Apple
 USER-AGENT,com.apple.appstored*,Apple
-USER-AGENT,cloudd*,
+USER-AGENT,cloudd*,Apple
 DOMAIN-KEYWORD,icloud,Apple
 DOMAIN-KEYWORD,itunes,Apple
 DOMAIN-SUFFIX,aaplimg.com,Apple
