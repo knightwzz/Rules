@@ -1,0 +1,8 @@
+#AbemaTV 补充规则，原规则地址地址：https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AbemaTV.list
+
+host-suffix, ds-linear-abematv.akamaized.net, AbemaTv
+host-suffix, ds-linear-abematv.akamaized.net, AbemaTv
+host-suffix, ds-linear-abematv.akamaized.net, AbemaTv
+host-suffix, abema-adx.ameba.jp, AbemaTv
+host-suffix, api.abema.io, AbemaTv
+host-suffix, lk.ameba.jp, AbemaTv
