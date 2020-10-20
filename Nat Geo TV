@@ -1,0 +1,15 @@
+#国家地理
+
+host, log.go.com
+host, streams.adobeprimetime.com
+host, prod.gatekeeper.us-abc.symphony.edgedatg.go.com
+host, ios.unid.go.com
+host, sp.auth.adobe.com
+host-suffix, atlas.iad-03.braze.com
+host-suffix, mobile-collector.newrelic.com
+host, assets.cdn.watchdisneyfe.com
+host, a.espncdn.com
+host, cdn.registerdisney.go.com
+host-suffix, edgedatg.com
+host-suffix, uplynk.comV
+host, sw88.nationalgeographic.com
