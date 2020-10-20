@@ -1,0 +1,16 @@
+#云顶之弈 外服 手游
+
+host, riot-client.dyn.riotcdn.net
+host, riot-geo.pas.si.riotgames.com
+host, entitlements.auth.riotgames.com
+host, playerpreferences.riotgames.com
+host, asia.edge.rms.si.riotgames.com
+host, jp.ledge.leagueoflegends.com
+host, jp1.chat.si.riotgames.com
+host, api.account.riotgames.com
+host, sieve.services.riotcdn.net
+host, jp1.chat.si.riotgames.com
+host, jp1.cap.riotgames.com
+host, loadouts.jp1.leagueoflegends.com
+host, lol.secure.dyn.riotcdn.net
+host-suffix, data.riotgames.com
