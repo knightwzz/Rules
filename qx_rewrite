@@ -1,0 +1,52 @@
+[rewrite_local]
+# 2021.1.29 15:50
+# 非订阅
+# 持续更新 
+# Quantumult X 远程 js 合集
+# 请 手动 全选 复制到相应位置
+
+####################
+# 排名不分先后 反正都是大佬
+####################
+
+####################
+# @ by NobyDa
+
+# 登录 https://bean.m.jd.com 获取Cookie
+https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+####################
+# @ by lxk0301
+
+# 宠汪汪强制为别人助力,默认停用
+#^https:\/\/draw\.jdfcloud\.com\/\/pet\/enterRoom\/h5\?invitePin=.*(&inviteSource=task_invite&shareSource=\w+&inviteTimeStamp=\d+&openId=\w+)?&reqSource=weapp|^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/pet\/helpFriend\?friendPin url script-request-header https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_help.js
+
+# 宠汪汪助力更新Token
+^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/addUser\?code= url script-response-body https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_run.js
+# 宠汪汪助力获取Token
+^https:\/\/draw\.jdfcloud\.com(\/mirror)?\/\/api\/user\/user\/detail\?openId= url script-request-header https://gitee.com/lxk0301/jd_scripts/raw/master/jd_joy_run.js
+
+# 聚宝盆投狗粮辅助
+#^https:\/\/jdjoy\.jd\.com\/pet\/getPetTreasureBox|^https:\/\/draw\.jdfcloud\.com\/\/pet\/getPetTreasureBox url script-response-body https://gitee.com/lxk0301/jd_scripts/raw/master/jd_petTreasureBox.js
+
+####################
+# @ by Sunert
+
+https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jddj.js
+
+####################
+# @ by whyour
+
+# 打开【❗️京喜农场❗️】，手动任意完成<工厂任务>、<签到任务>、<金牌厂长任务>一项，提示获取cookie成功即可，然后退出跑任务脚本 ❗️❗️❗️寻宝报错声明: 出现app内助力错误，使用上述方式获取Token再试
+#^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_nc.cookie.js
+
+####################
+# @ by shylocks
+
+#https:\/\/wq\.jd\.com\/bases\/jssdk\/GetWxJsApiSign url script-request-header https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js
+
+####################
+# @ by yichahucha
+
+# 京东比价
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
