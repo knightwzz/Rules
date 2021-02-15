@@ -14,3 +14,13 @@ host, jp1.cap.riotgames.com
 host, loadouts.jp1.leagueoflegends.com
 host, lol.secure.dyn.riotcdn.net
 host-suffix, data.riotgames.com
+host, auth.riotgames.com
+host, bacon.secure.dyn.riotcdn.net
+host, apse.wr.sgp.riotgames.com
+host-suffix, game.wr.pvp.net
+host-suffix, cros.wr.pvp.net
+host-suffix, riotcdn.net
+host, s2s.singular.net
+host, authenticate.riotgames.com
+host, clientconfig.rpg.riotgames.com
+host, apne.pp.riotgames.com
