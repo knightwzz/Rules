@@ -1,0 +1,7 @@
+#Yahoo等日本新闻媒体的规则
+host-suffix, yimg.jp, Yahoo
+host-suffix, media.ylive.jp, Yahoo
+host-suffix, yahooapis.jp, Yahoo
+host, d.line-scdn.net, Yahoo
+host, streams.tbs.co.jp, Yahoo
+host-suffix, yahoo.co.jp, Yahoo
