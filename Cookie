@@ -22,6 +22,9 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 # 京东到家
 ;^https:\/\/daojia.jd.com/client(.*?)functionId=signin(.*?)userSigninNew url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/jddj/jddj.cookie.js
 
+# 京东到家 (By @barrymchen, @GideonSenku & @Macsuny)
+https:\/\/daojia\.jd\.com\/client\?_jdrandom=\d{13}&functionId=%2Fsignin url script-request-header https://raw.githubusercontent.com/GoodHolidays/Scripts/master/Task/jddj.js
+
 # 哈啰出行
 ^https:\/\/gameapi\.hellobike\.com\/api url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/hellobike/hellobike.js
 
